@@ -1,6 +1,5 @@
 // do something!
 
-const star = get('.star-rating')
 
 export const StarRating=($container)=>{
     const starRatingContainer = document.createElement('div',{
