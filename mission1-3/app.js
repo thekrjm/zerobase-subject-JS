@@ -11,11 +11,6 @@ $containers.forEach(($container, i) => {
   $container.addEventListener('rating-change', e => {
     const rating = e.detail;
     $currentRatings[i].textContent = rating;
-  });
-});
+  })
 
-
-const link = document.createElement('link');
-link.href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css';
-link.rel='stylesheet'
-document.head.appendChild(link);
+})
