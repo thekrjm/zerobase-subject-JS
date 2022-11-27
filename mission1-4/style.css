@@ -1,0 +1,8 @@
+.calendar-nav {
+    display: flex;
+}
+
+.calendar-nav div {
+    display: flex;
+    flex-direction: column;
+}

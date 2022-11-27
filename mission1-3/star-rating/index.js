@@ -1,6 +1,6 @@
 export default function ($container) {
   const maxRating = +$container.dataset.maxRating
-  
+
   // 감싸고 있는 star-rating-container
   const starRatingContainer = document.createElement('div')
   starRatingContainer.classList.add('star-rating-container')
@@ -45,7 +45,7 @@ export default function ($container) {
         if (currentIndex <= index) {
           star.classList.add('selected')
         }
-        
+
         // rating-change 이벤트 발생
         const ratingChangeEvent = new CustomEvent('rating-change', {
           detail: +currentIndex + 1
